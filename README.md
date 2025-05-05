@@ -79,6 +79,11 @@ Each pair in A × B is mapped to a unique value in C.
 1. **Enumerate the Cartesian Product**:  
 Let A = {a, b, c}, B = {1, 2}. Write out all elements of A × B.
 
+  1        2
+a  a,1    a,2
+b  b,1    b,2
+c  c,1    c,2
+
 2. **Grid Drawing**:  
 Draw the Cartesian product A × B from task 1 as a table or grid, with A along the vertical axis and B along the horizontal axis.
 
@@ -89,12 +94,25 @@ f(a, b) = a * 2 + b
 ```
 List the output of all possible pairs.
 
+0, 1, 2, 3
+
+    0    1
+0   0    1
+1   2    3
+
 ## 3) Questions
 1. Why is the **order** of elements in a tuple important in the Cartesian product?
+    
 2. Can you think of real-world examples where data naturally forms **pairs**?
+    cordinates
 3. What changes if you consider B × A instead of A × B?
+    the (order of the) result tuple
+
 4. How would you describe a function of three inputs using Cartesian products?
+    (A X B X C) 
+
 5. Take a look at task 3 once again: What kind of values do you get? Do these resemble anything familiar from binary numbers?
+    First four digits of the (hexa-) decimal numbers
 
 ---
 
